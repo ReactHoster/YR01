@@ -1,7 +1,7 @@
 import React from 'react';
 import './Video.scss';
 
-const BASE_EMBED_URL = 'https://www.youtube.com/embed/';
+const BASE_EMBED_URL = 'https://www.youtube-nocookie.com/embed/';
 
 export function Video(props) {
   if(!props.id) {
