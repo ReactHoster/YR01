@@ -4,9 +4,6 @@ import './VideoMetadata.scss';
 import {Rating} from '../Rating/Rating';
 
 export function VideoMetadata(props) {
-  if (!props.video || !props.video.statistics) {
-    return <div/>;
-  }
   const viewCount = Number(props.video.statistics.viewCount).toLocaleString();
 
   return (
