@@ -4,5 +4,6 @@ import {Form, Image, TextArea} from "semantic-ui-react";
 
 export function AddComment() {
   return (
+    <div className='add-comment'>
   );
 }
