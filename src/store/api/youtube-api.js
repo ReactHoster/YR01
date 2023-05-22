@@ -18,7 +18,7 @@ export function buildMostPopularVideosRequest(amount = 12, loadDescription = fal
       part: 'snippet,statistics,contentDetails',
       chart: 'mostPopular',
       maxResults: amount,
-      regionCode: 'US',
+      regionCode: 'JP',
       pageToken: nextPageToken,
       fields,
       videoCategoryId,
