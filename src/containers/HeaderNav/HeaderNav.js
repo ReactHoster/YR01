@@ -25,9 +25,9 @@ export class HeaderNav extends React.Component {
             <Form onSubmit={this.onSubmit}>
               {/* 4 */}
               <Form.Field>
-                <Input placeholder='Search'
+                <Input placeholder='検索ワードを入力'
                        size='small'
-                       action='Go'
+                       action='検索'
                        value={this.state.query}
                        onChange={this.onInputChange}
                 />
