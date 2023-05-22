@@ -13,7 +13,7 @@ export function VideoMetadata(props) {
     <div className='video-metadata'>
       <h3>{props.video.snippet.title}</h3>
       <div className='video-stats'>
-        <span>{viewCount} views</span>
+        <span>{viewCount} 回視聴</span>
         <div className='video-actions' >
           <Rating likeCount={props.video.statistics.likeCount}
                   dislikeCount={props.video.statistics.dislikeCount}/>
