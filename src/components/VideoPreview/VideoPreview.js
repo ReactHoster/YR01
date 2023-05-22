@@ -9,7 +9,8 @@ import {getVideoDurationString} from '../../services/date/date-format';
 import {Link} from 'react-router-dom';
 
 TimeAgo.locale(en);
-const timeAgo = new TimeAgo('en-US');
+//const timeAgo = new TimeAgo('en-US');
+const timeAgo = new TimeAgo('ja-JP');
 
 export class VideoPreview extends React.Component {
   render() {
@@ -53,7 +54,7 @@ export class VideoPreview extends React.Component {
     const viewCount = video.statistics ? video.statistics.viewCount : null;
     if(viewCount) {
       const viewCountShort = getShortNumberString(video.statistics.viewCount);
-      return `${viewCountShort} views • ${timeAgo.format(publicationDate)}`;
+      return `${viewCountShort} 回視聴 • ${timeAgo.format(publicationDate)}`;
     }
     return '';
   }
