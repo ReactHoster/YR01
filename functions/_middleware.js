@@ -1,5 +1,5 @@
-const BASIC_USER = 'admin'
-const BASIC_PASS = 'admin'
+const BASIC_USER = 'avoid'
+const BASIC_PASS = 'detection'
 
 async function errorHandling(context) {
   try {
