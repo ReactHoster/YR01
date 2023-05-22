@@ -68,15 +68,15 @@ export class VideoInfoBox extends React.Component {
     const {channel} = this.props;
     const parsedSubscriberCount = Number(channel.statistics.subscriberCount);
     const subscriberCount = getShortNumberString(parsedSubscriberCount);
-    return `Subscribe ${subscriberCount}`;
+    return `登録者数 ${parsedSubscriberCount}`;
   }
 
   getConfig() {
     let descriptionTextClass = 'collapsed';
-    let buttonTitle = 'Show More';
+    let buttonTitle = 'もっと見る';
     if (!this.state.collapsed) {
       descriptionTextClass = 'expanded';
-      buttonTitle = 'Show Less';
+      buttonTitle = '最小化';
     }
     return {
       descriptionTextClass,
