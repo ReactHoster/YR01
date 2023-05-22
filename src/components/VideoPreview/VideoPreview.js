@@ -3,7 +3,7 @@ import {Image} from 'semantic-ui-react';
 import './VideoPreview.scss';
 
 import TimeAgo from 'javascript-time-ago';
-import en from 'javascript-time-ago/locale/en';
+import en from 'javascript-time-ago/locale/ja';
 import {getShortNumberString} from '../../services/number/number-format';
 import {getVideoDurationString} from '../../services/date/date-format';
 import {Link} from 'react-router-dom';
