@@ -8,7 +8,7 @@ export function CommentsHeader(props) {
       <h4>{props.amountComments} Comments</h4>
       <Button basic compact icon labelPosition='left'>
         <Icon name='align left' />
-        Sort by
+        並び替え
       </Button>
     </div>
   );
