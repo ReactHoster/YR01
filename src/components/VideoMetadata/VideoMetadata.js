@@ -19,7 +19,7 @@ export function VideoMetadata(props) {
                   dislikeCount={props.video.statistics.dislikeCount}/>
           <Button basic icon labelPosition='left'>
             <Icon name='share'/>
-            Share
+            共有
           </Button>
           <Button basic icon>
             <Icon name='add circle' />
