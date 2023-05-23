@@ -7,9 +7,9 @@ export function NextUpVideo(props) {
   return (
     <React.Fragment>
       <div className='next-up-container'>
-        <h4>Up next</h4>
+        <h4>次の動画</h4>
         <div className='up-next-toggle'>
-          <span>Autoplay</span>
+          <span>自動再生</span>
           <Checkbox toggle defaultChecked/>
         </div>
       </div>
