@@ -14,10 +14,10 @@ export class SideBar extends React.Component {
         <SideBarItem path='/feed/trending' label='トレンド' icon='fire'/>
         <SideBarItem label='フォロワー' icon='spy'/>
         <Divider/>
-        <SideBarHeader title='Library'/>
-        <SideBarItem label='History' icon='history'/>
-        <SideBarItem label='Watch later' icon='clock'/>
-        <SideBarItem label='Liked videos' icon='thumbs up'/>
+        <SideBarHeader title='ライブラリ'/>
+        <SideBarItem label='履歴' icon='history'/>
+        <SideBarItem label='後で見る' icon='clock'/>
+        <SideBarItem label='高評価した動画' icon='thumbs up'/>
         <Divider/>
         <Subscriptions/>
         <SideBarHeader title='More from Youtube'/>
