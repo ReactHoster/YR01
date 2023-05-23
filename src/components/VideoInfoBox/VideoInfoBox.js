@@ -20,7 +20,7 @@ export class VideoInfoBox extends React.Component {
 
     const descriptionParagraphs = this.getDescriptionParagraphs();
     const {descriptionTextClass, buttonTitle} = this.getConfig();
-    const publishedAtString = getPublishedAtDateString(this.props.video.snippet.publishedAt);
+    const publishedAtString = this.props.video.snippet.publishedAt;
 
     const {channel} = this.props;
     const buttonText = this.getSubscriberButtonText();
