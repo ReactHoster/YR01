@@ -18,7 +18,7 @@ export function Comment(props) {
         <div className='user-name'>{authorDisplayName}</div>
         <span>{textOriginal}</span>
         <div className='comment-actions'>
-          <Rating likeCount={likeCount}/> <Button size='mini' compact>REPLY</Button>
+          <Rating likeCount={likeCount}/> <Button size='mini' compact>返信</Button>
         </div>
       </div>
     </div>
