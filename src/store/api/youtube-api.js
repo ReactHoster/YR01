@@ -3,6 +3,7 @@ export function buildVideoCategoriesRequest() {
     '/youtube/v3/videoCategories',
     {
       'part': 'snippet',
+      'hl': 'ja-JP',
       'regionCode': 'JP'
     }, null);
 }
