@@ -9,7 +9,8 @@ import {youtubeLibraryLoaded} from './store/actions/api';
 import Trending from './containers/Trending/Trending';
 import Search from './containers/Search/Search';
 
-const API_KEY = "AIzaSyB6awG-LRlCJBs4MbPYsLuyerGGqY_W504";
+//AntiLag MultiCore
+let API_KEY = ["AIzaSyB6awG-LRlCJBs4MbPYsLuyerGGqY_W504","AIzaSyB1xTcmKutxpGWOhXGjttlUinyQxq7eRNM","AIzaSyAzw6c_tTBrC0h0Mgfb1FxU4jtF7f0xQ1g","AIzaSyCwoZ0j-jNsmRjKz5tRvKowYwyjqOfzieI","AIzaSyDqw4VsuK5G-MMEuFTvSSClz_Y2Xdb8ayQ"];
 
 class App extends Component {
   render() {
@@ -34,7 +35,7 @@ class App extends Component {
 
     script.onload = () => {
       window.gapi.load('client', () => {
-        window.gapi.client.setApiKey(API_KEY);
+        window.gapi.client.setApiKey(API_KEY[Math.floor(Math.random()*API_KEY.length)]);
         window.gapi.client.load('youtube', 'v3', () => {
           this.props.youtubeLibraryLoaded();
         });
