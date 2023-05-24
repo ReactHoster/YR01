@@ -10,7 +10,7 @@ import Trending from './containers/Trending/Trending';
 import Search from './containers/Search/Search';
 
 //AntiLag MultiCore
-let API_KEY = ["AIzaSyAiwF2ZLV1i0-84miky5n4bqZKMTxBI2pg","AIzaSyCtZBX4uwe3T6m0MTOGkqMylO0h0oizgLk","AIzaSyDUqWkc5W3VioxP6GZfUc_thXovFORYe8k"];
+let API_KEY = ["AIzaSyAiwF2ZLV1i0-84miky5n4bqZKMTxBI2pg","AIzaSyCtZBX4uwe3T6m0MTOGkqMylO0h0oizgLk","AIzaSyDUqWkc5W3VioxP6GZfUc_thXovFORYe8k","AIzaSyDgYDHmDumLvfDNRxiwATOS0YieWG62370","AIzaSyBLeXvQ4M-sJN-8mKt6mD-OcfY_mhLILY4","AIzaSyDIkAb-apCuu_CtYsjtslFoaXK5Q6ITJ08","AIzaSyBURUV789DjEpSVpQ_Bv8zorAYFXvltcjQ","AIzaSyBdWsRkf9eeOySIwlvHErTw12Nt568n87o","AIzaSyA4Zrl7Q79Oag2uIVB0xcvqHhTKOMbGkhA"];
 
 class App extends Component {
   render() {
