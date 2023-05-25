@@ -10,12 +10,11 @@ export function Video(props) {
   //const embedUrl = `${BASE_EMBED_URL}${props.id}?autoplay=1`;
   const embedUrl = `${BASE_EMBED_URL}${props.id}`;
   return (
-    /*<div className='video-container'>
+    <div className='video-container'>
       <div className="video">
         <iframe width="560" height="315" src={embedUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
-    </div>*/
-    <iframe width="560" height="315" src={embedUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
   );
 }
